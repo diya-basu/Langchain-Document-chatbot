@@ -82,7 +82,7 @@ def wrap_text_preserve_newlines(text, width=110):
 
 def main():
     load_dotenv()
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Your API Token here"
     st.set_page_config(page_title="Query your PDFs", page_icon=":scroll:")
     st.header("The ultimate PDF whisperer 💬")
     
