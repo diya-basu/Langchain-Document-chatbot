@@ -10,8 +10,12 @@ Using GPT 3.5 turbo and the free huggingface model-Dolly b v2 to query documents
    pip install streamline langchain tiktoken pypdf2 openai faiss-cpu huggingface_hub 
 
 5. To run the final app, download and save app1.py and In terminal navigate to the directory app1.py is stored in. 
-   Run the following command: 
-   streamlit run app1.py 
+   Run the following command:
+   ` ` `
+   ` ` `
+   streamlit run app1.py
+   ` ` `
+   ` ` `
 
 # To use the Huggingface models: 
 1. sign up on the Huggingface website and generate access token. 
