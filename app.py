@@ -70,7 +70,7 @@ def get_vectorstore(chunks):
 
 def main():
     load_dotenv()
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = 'Your API key here'
     st.set_page_config(page_title="Query your PDFs", page_icon=":scroll:")
     st.header("The ultimate PDF whisperer 💬")
     
