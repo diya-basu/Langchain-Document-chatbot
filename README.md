@@ -11,10 +11,10 @@ Using GPT 3.5 turbo and the free huggingface model-Dolly b v2 to query documents
    pip install streamline langchain tiktoken pypdf2 openai faiss-cpu huggingface_hub
    ```
 
-6. To run the final app, download and save app1.py and In terminal navigate to the directory app1.py is stored in. 
+6. To run the final app, download and save finalapp.py and In the terminal navigate to the directory finalapp.py is stored in by using command "cd"
    Run the following command:
    ```
-   streamlit run app1.py
+   streamlit run finalapp.py
    ```
   
 
